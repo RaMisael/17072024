@@ -11,7 +11,7 @@ const MAX_IMAGES = 3;
 let play = true;
 let noCount = 0;
 
-yesButton.addEventListener("click", handleYesClick);
+//yesButton.addEventListener("click", handleYesClick);
 
 noButton.addEventListener("click", function () {
   if (play) {
