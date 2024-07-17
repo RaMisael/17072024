@@ -9,7 +9,7 @@ const catImg = document.querySelector(".cat-img");
 const MAX_IMAGES = 3;
 
 let play = true;
-let noCount = 0;
+let noCount = 1;
 
 //yesButton.addEventListener("click", handleYesClick);
 
@@ -20,7 +20,7 @@ noButton.addEventListener("click", function () {
     changeImage(imageIndex);
     updateNoButtonText();
     if (noCount === MAX_IMAGES) {
-      MAX_IMAGES = 0;
+      noCount = 0;
     }
   }
 });
