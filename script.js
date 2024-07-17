@@ -33,9 +33,9 @@ function handleYesClick() {
 
 function generateMessage(noCount) {
   const messages = [
-    "No",
-    "¿Segura?",
-    "Enserio? :c",
+    "Yo",
+    "Yo",
+    "Yo",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
